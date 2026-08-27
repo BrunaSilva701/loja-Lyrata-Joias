@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FEFBF9;
+    min-height: 100vh;
+}
+
+header{
+   position: fixed;
+    top: 0;
+    z-index: 1000; /* Garante que o header fique sobre o banner ao rolar */
+    width: 100%;   
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px #eadfd8;
+    background-color: #FEFBF9;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.menu-btn{
+    display: none;
+    margin-right: 30px;
+    color:#FEFBF9;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#menu{
+    align-items: right;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    gap: 10px;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+nav :hover{
+    cursor: pointer;
+    background-color: #f5f3ef;
+    border-radius: 5px;
+}
+
+.menu-btn{
+    margin-top: 10px;
+    align-self: left;
+}
+
+.container{
+    margin: 30px;
+}
+
+.container h2{
+    text-align: center;
+}
+
+.video-container{
+    border-radius: 5px;
+}
+
+.tecnologias{
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}

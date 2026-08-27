@@ -1,0 +1,211 @@
+/* CORES
+Fundo: FEFBF9
+Elementos: b47150 
+Hover botões de ações: 9f6141
+Hover botões de menu e destaques: f5f3ef
+Texto claro: fffdf9
+texto escuro: black
+*/
+
+body{
+     margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FEFBF9;
+}
+
+header{
+   position: fixed;
+    top: 0;
+    z-index: 1000; /* Garante que o header fique sobre o banner ao rolar */
+    width: 100%;   
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #FEFBF9;
+     border-bottom: solid 1px #eadfd8;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.menu-btn{
+    display: none;
+    margin-right: 30px;
+    color:#FEFBF9;
+    border: none;
+    background-color: #b47150;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#menu{
+    align-items: right;
+    margin-left: 40px;
+}
+
+a{
+    text-decoration: none;
+    gap: 10px;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+nav :hover{
+    cursor: pointer;
+    background-color: #f5f3ef;
+    border-radius: 5px;
+}
+
+.menu-btn{
+    margin-top: 10px;
+    align-self: left;
+}
+
+.banner{
+    width: 100%;
+}
+
+.banner img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.informations{
+    margin: 50px;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.informations li {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+} 
+
+.informations ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.informations i{
+    color: #b47150;
+    font-size: 25px;
+}
+
+#busca{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+} 
+
+.btn-buscar,
+.btn-limpar{
+    background-color: #b47150;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fffdf9; 
+    border: none;
+    gap:10px;
+}
+
+.btn-buscar:hover,
+.btn-limpar:hover{
+    background-color: #9f6141;
+}
+
+#inputBusca{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #f5f3ef;
+    align-items: right;
+    margin-left: 40px;
+    width: 50%;
+}
+
+.produtos-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 40px;
+}
+
+.produto{
+    text-align: center;
+}
+
+.produto img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #eadfd8;
+}
+
+@media (max-width: 768px) {
+
+    .menu-btn {
+        display: block;
+        margin-left: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    nav.aberto {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        position: absolute;
+        right: 70px;
+        top:10px;
+        background-color: #fffdf9;
+        border-radius: 5px;
+        box-shadow: 1px 12px 35px rgba(229, 107, 13, 0.15);
+    }
+
+    nav.aberto :hover{
+        cursor: pointer;
+        background-color: #f5f3ef;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .produtos-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin: 20px;
+    }
+
+     .produto img {
+        height: 200px;
+    }
+
+}

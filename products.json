@@ -1,0 +1,82 @@
+[
+    {
+    "id": 1,
+    "nome": "Conjunto Vega",
+    "preco": 299.90,
+    "categoria": "conjuntos",
+    "imagem": "img/conjunto1.avif",
+    "descricao": "Conjunto elegante com acabamento refinado para looks diários e ocasiões especiais."
+    },
+    {
+    "id": 2,
+    "nome": "Brinco Luna",
+    "preco": 119.90,
+    "categoria": "brincos",
+    "imagem": "img/brinco1.avif",
+    "descricao": "Brinco leve e delicado com brilho suave para realçar o visual com sofisticação."
+    },
+   {
+    "id": 3,
+    "nome": "Anéis Sulafat",
+    "preco": 129.90,
+    "categoria": "aneis",
+    "imagem": "img/aneis1.avif",
+    "descricao": "Anéis delicados e versátil, pensado para quem gosta de um toque moderno e elegante."
+    },
+    {
+    "id": 4,
+    "nome": "Colar Helena",
+    "preco": 168.90,
+    "categoria": "colares",
+    "imagem": "img/colar1.avif",
+    "descricao": "Colar sofisticado com desenho delicado que traz charme e elegância ao visual."
+    },
+    {
+    "id": 5,
+    "nome": "Pulseira Lyrae",
+    "preco": 149.90,
+    "categoria": "pulseiras",
+    "imagem": "img/pulseira1.avif",
+    "descricao": "Pulseira sofisticada, confortável e versátil para uso diário ou em ocasiões especiais."
+    },
+    {
+    "id": 6,
+    "nome": "Colar Pérola",
+    "preco": 279.90,
+    "categoria": "colares",
+    "imagem": "img/colar2.avif",
+    "descricao": "Colar clássico com toque contemporâneo, perfeito para um visual elegante e memorável."
+    },
+    {
+    "id": 7,
+    "nome": "Brinco Aurora",
+    "preco": 110.90,
+    "categoria": "brincos",
+    "imagem": "img/brinco2.avif",
+    "descricao": "Brinco delicado com brilho suave e acabamento refinado para um toque leve e chique."
+    },
+    {
+    "id": 8,
+    "nome": "Pulseira Sheliak",
+    "preco": 159.90,
+    "categoria": "pulseiras",
+    "imagem": "img/pulseira2.avif",
+    "descricao": "Pulseira discreta e elegante, ideal para compor combinações sutis e sofisticadas."
+    },
+    {
+    "id": 9,
+    "nome": "Conjunto Delta",
+    "preco": 259.90,
+    "categoria": "conjuntos",
+    "imagem": "img/conjunto2.avif",
+    "descricao": "Conjunto com presença marcante e acabamento premium para ocasiões especiais e fotos inesquecíveis."
+    },
+    {
+    "id": 10,
+    "nome": "Anéis Épsilon",
+    "preco": 149.90,
+    "categoria": "aneis",
+    "imagem": "img/aneis2.avif",
+    "descricao": "Anéis delicados e versátil, pensado para quem gosta de um toque moderno e elegante."
+    }
+]
