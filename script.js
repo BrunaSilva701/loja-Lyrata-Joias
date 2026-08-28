@@ -45,10 +45,8 @@ document.querySelectorAll('#menu a[data-categoria]').forEach(link => {
 
         //3-Ler o valor em data-categoria
         const categoria = link.dataset.categoria;
-        const produtos = categoria === 'todos'
-            ? todosProdutos
-            //4-Mantém apenas os produtos da categoria clicada
-            : todosProdutos.filter(item => item.categoria === categoria);
+        //4-Mantém apenas os produtos da categoria clicada
+        const produtos = categoria === 'todos'? todosProdutos : todosProdutos.filter(item => item.categoria === categoria);
 
         //5-Exibe os produtos filtrados
         renderizarProdutos(produtos);
