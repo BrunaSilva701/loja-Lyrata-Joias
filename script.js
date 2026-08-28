@@ -14,7 +14,7 @@ function renderizarProdutos(produtos) {
         elemento.classList.add('produto');
         elemento.innerHTML = `
             <img src="${item.imagem}" alt="${item.nome}">
-            <h3>${item.nome}</h3>
+            <h2>${item.nome}</h2>
             <p>R$ ${item.preco.toFixed(2)}</p>`;
         container.appendChild(elemento);
     });
