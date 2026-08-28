@@ -207,12 +207,4 @@ footer{
      .produto img {
         height: 200px;
     }
-
-    /* adicionado */
-    #busca{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
 }

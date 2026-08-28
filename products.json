@@ -4,7 +4,7 @@
     "nome": "Conjunto Vega",
     "preco": 299.90,
     "categoria": "conjuntos",
-    "imagem": "img/conjunto1.avif",
+    "imagem": "img/conjunto1.jpg",
     "descricao": "Conjunto elegante com acabamento refinado para looks diários e ocasiões especiais."
     },
     {
@@ -12,7 +12,7 @@
     "nome": "Brinco Luna",
     "preco": 119.90,
     "categoria": "brincos",
-    "imagem": "img/brinco1.avif",
+    "imagem": "img/brinco1.jpg",
     "descricao": "Brinco leve e delicado com brilho suave para realçar o visual com sofisticação."
     },
    {
@@ -20,7 +20,7 @@
     "nome": "Anéis Sulafat",
     "preco": 129.90,
     "categoria": "aneis",
-    "imagem": "img/aneis1.avif",
+    "imagem": "img/aneis1.jpg",
     "descricao": "Anéis delicados e versátil, pensado para quem gosta de um toque moderno e elegante."
     },
     {
@@ -28,7 +28,7 @@
     "nome": "Colar Helena",
     "preco": 168.90,
     "categoria": "colares",
-    "imagem": "img/colar1.avif",
+    "imagem": "img/colar1.jpg",
     "descricao": "Colar sofisticado com desenho delicado que traz charme e elegância ao visual."
     },
     {
@@ -36,7 +36,7 @@
     "nome": "Pulseira Lyrae",
     "preco": 149.90,
     "categoria": "pulseiras",
-    "imagem": "img/pulseira1.avif",
+    "imagem": "img/pulseira1.jpg",
     "descricao": "Pulseira sofisticada, confortável e versátil para uso diário ou em ocasiões especiais."
     },
     {
@@ -44,7 +44,7 @@
     "nome": "Colar Pérola",
     "preco": 279.90,
     "categoria": "colares",
-    "imagem": "img/colar2.avif",
+    "imagem": "img/colar2.jpg",
     "descricao": "Colar clássico com toque contemporâneo, perfeito para um visual elegante e memorável."
     },
     {
@@ -52,7 +52,7 @@
     "nome": "Brinco Aurora",
     "preco": 110.90,
     "categoria": "brincos",
-    "imagem": "img/brinco2.avif",
+    "imagem": "img/brinco2.jpg",
     "descricao": "Brinco delicado com brilho suave e acabamento refinado para um toque leve e chique."
     },
     {
@@ -60,7 +60,7 @@
     "nome": "Pulseira Sheliak",
     "preco": 159.90,
     "categoria": "pulseiras",
-    "imagem": "img/pulseira2.avif",
+    "imagem": "img/pulseira2.jpg",
     "descricao": "Pulseira discreta e elegante, ideal para compor combinações sutis e sofisticadas."
     },
     {
@@ -68,7 +68,7 @@
     "nome": "Conjunto Delta",
     "preco": 259.90,
     "categoria": "conjuntos",
-    "imagem": "img/conjunto2.avif",
+    "imagem": "img/conjunto2.jpg",
     "descricao": "Conjunto com presença marcante e acabamento premium para ocasiões especiais e fotos inesquecíveis."
     },
     {
@@ -76,7 +76,7 @@
     "nome": "Anéis Épsilon",
     "preco": 149.90,
     "categoria": "aneis",
-    "imagem": "img/aneis2.avif",
+    "imagem": "img/aneis2.jpg",
     "descricao": "Anéis delicados e versátil, pensado para quem gosta de um toque moderno e elegante."
     }
 ]
