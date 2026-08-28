@@ -64,20 +64,36 @@ nav :hover{
 
 .container h2{
     text-align: center;
+    font-size: xx-large;
+}
+
+.container p{
+    text-align: center;
 }
 
 .video-container{
     border-radius: 5px;
 }
 
-.tecnologias{
+.tecnologias-container{
     font-size: 30px;
     margin: 30px;
     text-align: center;
+}
+
+.tecnologias-container h3{
+    font-size: medium;
+}
+
+.tecnologias{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
 
 footer{
     margin: 10px;
     padding: 10px;
     text-align: center;
+    border-top: 1px solid #eadfd8;
 }

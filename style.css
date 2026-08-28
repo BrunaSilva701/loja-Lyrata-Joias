@@ -81,23 +81,19 @@ nav :hover{
 .informations{
     margin: 50px;
     gap: 50px;
-    display: flex;
-    flex-wrap: wrap;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 .informations li {
-    display: flex;
-    flex-direction: column;
     list-style: none;
     align-items: center;
 } 
 
 .informations ul {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
     gap: 24px;
@@ -198,6 +194,10 @@ footer{
         width: 100%;
     }
 
+    .informations ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .produtos-container{
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
@@ -206,5 +206,11 @@ footer{
 
      .produto img {
         height: 200px;
+    }
+}
+
+@media (max-width: 412px){
+      .informations ul{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
