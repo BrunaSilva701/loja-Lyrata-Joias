@@ -72,7 +72,24 @@ nav :hover{
 }
 
 .video-container{
-    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(100%, 900px);
+    aspect-ratio: 16 / 9;
+    margin: 30px auto 0;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(111, 74, 58, 0.12);
+}
+
+.video-container iframe{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 16px;
+    background: #000;
 }
 
 .tecnologias-container{
