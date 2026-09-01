@@ -60,6 +60,7 @@ nav :hover{
 
 .container{
     margin: 30px;
+    margin-top: 60px;
 }
 
 .container h2{
@@ -112,4 +113,16 @@ footer{
     padding: 10px;
     text-align: center;
     border-top: 1px solid #eadfd8;
+}
+
+@media (max-width: 768px) {
+    .video-container{
+        width: 90%;
+    }
+
+    .tecnologias{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
 }
