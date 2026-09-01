@@ -187,7 +187,7 @@ footer{
         top:10px;
         background-color: #fffdf9;
         border-radius: 5px;
-        box-shadow: 1px 12px 35px rgba(229, 107, 13, 0.15);
+       box-shadow: 0 12px 30px rgba(111, 74, 58, 0.12);
     }
 
     nav.aberto :hover{
