@@ -147,6 +147,10 @@ nav :hover{
     margin: 40px;
 }
 
+.produtos-container :hover{
+    background-color: #f5f3ef;
+}
+
 .produto{
     text-align: center;
 }
